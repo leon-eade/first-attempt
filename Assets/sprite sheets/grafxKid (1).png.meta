@@ -1,0 +1,1532 @@
+fileFormatVersion: 2
+guid: a79d73b0be2a11f42b4ce9d600ffa6d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5491789042030780144
+    second: grafxKid (1)_0
+  - first:
+      213: 7945329754545256573
+    second: grafxKid (1)_1
+  - first:
+      213: 4650422581117764530
+    second: grafxKid (1)_2
+  - first:
+      213: 6726105867306630923
+    second: grafxKid (1)_3
+  - first:
+      213: 6894455434623386398
+    second: grafxKid (1)_4
+  - first:
+      213: 7250775667298026464
+    second: grafxKid (1)_5
+  - first:
+      213: 603180158075634869
+    second: grafxKid (1)_6
+  - first:
+      213: -3509208809648361972
+    second: grafxKid (1)_7
+  - first:
+      213: -7011100749614433642
+    second: grafxKid (1)_8
+  - first:
+      213: 5769974916209886353
+    second: grafxKid (1)_9
+  - first:
+      213: -6583441188813115146
+    second: grafxKid (1)_10
+  - first:
+      213: -5104337107162370576
+    second: grafxKid (1)_11
+  - first:
+      213: -8774495466849950121
+    second: grafxKid (1)_12
+  - first:
+      213: 949003317069166354
+    second: grafxKid (1)_13
+  - first:
+      213: -5258260318634392704
+    second: grafxKid (1)_14
+  - first:
+      213: 4842383618695765513
+    second: grafxKid (1)_15
+  - first:
+      213: 6286945387507417060
+    second: grafxKid (1)_16
+  - first:
+      213: -8286608827298574006
+    second: grafxKid (1)_17
+  - first:
+      213: -2456380477059794485
+    second: grafxKid (1)_18
+  - first:
+      213: 8960238657012867629
+    second: grafxKid (1)_19
+  - first:
+      213: 5689025538170392390
+    second: grafxKid (1)_20
+  - first:
+      213: 900166088381479186
+    second: grafxKid (1)_21
+  - first:
+      213: 4923251246475137104
+    second: grafxKid (1)_22
+  - first:
+      213: -6521119883130294750
+    second: grafxKid (1)_23
+  - first:
+      213: -2116024836605980584
+    second: grafxKid (1)_24
+  - first:
+      213: 5724396952892479045
+    second: grafxKid (1)_25
+  - first:
+      213: 3353647129862522381
+    second: grafxKid (1)_26
+  - first:
+      213: -1179458427525309677
+    second: grafxKid (1)_27
+  - first:
+      213: -5646779708470043770
+    second: grafxKid (1)_28
+  - first:
+      213: -5186008362900382282
+    second: grafxKid (1)_29
+  - first:
+      213: -2795822184085450118
+    second: grafxKid (1)_30
+  - first:
+      213: 5746320433896429315
+    second: grafxKid (1)_31
+  - first:
+      213: 6012741587242714461
+    second: grafxKid (1)_32
+  - first:
+      213: -2516640679852732962
+    second: grafxKid (1)_33
+  - first:
+      213: -5121562288716729119
+    second: grafxKid (1)_34
+  - first:
+      213: 4659630455483053505
+    second: grafxKid (1)_35
+  - first:
+      213: 1079242209608199478
+    second: grafxKid (1)_36
+  - first:
+      213: 3064980494190384068
+    second: grafxKid (1)_37
+  - first:
+      213: -1057501070371561034
+    second: grafxKid (1)_38
+  - first:
+      213: 8894133774470349475
+    second: grafxKid (1)_39
+  - first:
+      213: 7448550562927119375
+    second: grafxKid (1)_40
+  - first:
+      213: -2534317251056798817
+    second: grafxKid (1)_41
+  - first:
+      213: 5167208858917429773
+    second: grafxKid (1)_42
+  - first:
+      213: 3634250810116913325
+    second: grafxKid (1)_43
+  - first:
+      213: 6737898617617085142
+    second: grafxKid (1)_44
+  - first:
+      213: -1692462585063643808
+    second: grafxKid (1)_45
+  - first:
+      213: 7540406241863202010
+    second: grafxKid (1)_46
+  - first:
+      213: 4804580634246655334
+    second: grafxKid (1)_47
+  - first:
+      213: 3328696193572671826
+    second: grafxKid (1)_48
+  - first:
+      213: 4482135639392277979
+    second: grafxKid (1)_49
+  - first:
+      213: -2107599074889876523
+    second: grafxKid (1)_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grafxKid (1)_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 992
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0116f5886fe39c3b0800000000000000
+      internalID: -5491789042030780144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 991
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78f20bc05b734e60800000000000000
+      internalID: 7945329754545256573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 992
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3caf2d2be998040800000000000000
+      internalID: 4650422581117764530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 991
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f7b7e56ade75d50800000000000000
+      internalID: 6726105867306630923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 992
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e130d7c70b60eaf50800000000000000
+      internalID: 6894455434623386398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 992
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3485b9d0eef9460800000000000000
+      internalID: 7250775667298026464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 991
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b489a1782dee5800800000000000000
+      internalID: 603180158075634869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 991
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eec322e29cc4fc0800000000000000
+      internalID: -3509208809648361972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 960
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ab1ceb30193be90800000000000000
+      internalID: -7011100749614433642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 959
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194ca9b9d91131050800000000000000
+      internalID: 5769974916209886353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 960
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f07e1d8e1be2a4a0800000000000000
+      internalID: -6583441188813115146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 959
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdedb9e170c929b0800000000000000
+      internalID: -5104337107162370576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 960
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7562227bcdaba3680800000000000000
+      internalID: -8774495466849950121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 960
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21733942d798b2d00800000000000000
+      internalID: 949003317069166354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 959
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083c3438918e607b0800000000000000
+      internalID: -5258260318634392704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 959
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e1882ce3a933340800000000000000
+      internalID: 4842383618695765513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 960
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eff8a03587bf3750800000000000000
+      internalID: 6286945387507417060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_17
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 959
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4190480d2d000d80800000000000000
+      internalID: -8286608827298574006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_18
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 959
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc975a778fe29edd0800000000000000
+      internalID: -2456380477059794485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_19
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 959
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22a9fdc599295c70800000000000000
+      internalID: 8960238657012867629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 959
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f85c0d59a73fe40800000000000000
+      internalID: 5689025538170392390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_21
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 959
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219b4d0c9480e7c00800000000000000
+      internalID: 900166088381479186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_22
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 959
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05056269ce6e25440800000000000000
+      internalID: 4923251246475137104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_23
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 959
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e284444045085a0800000000000000
+      internalID: -6521119883130294750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 927
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850523e4f9e52a2e0800000000000000
+      internalID: -2116024836605980584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_25
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 928
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5461c7213b4217f40800000000000000
+      internalID: 5724396952892479045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_26
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 927
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06c675db4c8a8e20800000000000000
+      internalID: 3353647129862522381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 927
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b53082fc8b1afe0800000000000000
+      internalID: -1179458427525309677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_28
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 927
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b52c7e5cb92a1b0800000000000000
+      internalID: -5646779708470043770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_29
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 927
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd1e1fded89708b0800000000000000
+      internalID: -5186008362900382282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 895
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a721e66598e3339d0800000000000000
+      internalID: -2795822184085450118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 895
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30717f34df70fbf40800000000000000
+      internalID: 5746320433896429315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_32
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 898
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5502d1ed9c817350800000000000000
+      internalID: 6012741587242714461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_33
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 899
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd841aa2a8131dd0800000000000000
+      internalID: -2516640679852732962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_34
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 898
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4b00ecb3e8ce8b0800000000000000
+      internalID: -5121562288716729119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_35
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5b8a326355aa040800000000000000
+      internalID: 4659630455483053505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_36
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 895
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ded42521d3afe00800000000000000
+      internalID: 1079242209608199478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_37
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 895
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c318bf358ff88a20800000000000000
+      internalID: 3064980494190384068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_38
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 896
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b168ee11600351f0800000000000000
+      internalID: -1057501070371561034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_39
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 898
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a20c147b8f4e6b70800000000000000
+      internalID: 8894133774470349475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_40
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 863
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c8ecad5419e5760800000000000000
+      internalID: 7448550562927119375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_41
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 863
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f937d9633eb44dcd0800000000000000
+      internalID: -2534317251056798817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_42
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 863
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d026604841d95b740800000000000000
+      internalID: 5167208858917429773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_43
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 863
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8b1b15bd37f6230800000000000000
+      internalID: 3634250810116913325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 864
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d279a30813d18d50800000000000000
+      internalID: 6737898617617085142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_45
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 866
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06564a5fe3a2388e0800000000000000
+      internalID: -1692462585063643808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_46
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 866
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4f464b687e4a860800000000000000
+      internalID: 7540406241863202010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_47
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 835
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d2efe81ac4da240800000000000000
+      internalID: 4804580634246655334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_48
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 835
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25118174d87e13e20800000000000000
+      internalID: 3328696193572671826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_49
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 831
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5581ddd9eb33e30800000000000000
+      internalID: 4482135639392277979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_50
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 832
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db3f34decd40c2e0800000000000000
+      internalID: -2107599074889876523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grafxKid (1)_51
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 869
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f4f8ab36ef9dd44ba23031d7e2d5f5
+      internalID: -99145256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7c478be4750cb4f4582c36ec3d07ed73
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      grafxKid (1)_0: -5491789042030780144
+      grafxKid (1)_1: 7945329754545256573
+      grafxKid (1)_10: -6583441188813115146
+      grafxKid (1)_11: -5104337107162370576
+      grafxKid (1)_12: -8774495466849950121
+      grafxKid (1)_13: 949003317069166354
+      grafxKid (1)_14: -5258260318634392704
+      grafxKid (1)_15: 4842383618695765513
+      grafxKid (1)_16: 6286945387507417060
+      grafxKid (1)_17: -8286608827298574006
+      grafxKid (1)_18: -2456380477059794485
+      grafxKid (1)_19: 8960238657012867629
+      grafxKid (1)_2: 4650422581117764530
+      grafxKid (1)_20: 5689025538170392390
+      grafxKid (1)_21: 900166088381479186
+      grafxKid (1)_22: 4923251246475137104
+      grafxKid (1)_23: -6521119883130294750
+      grafxKid (1)_24: -2116024836605980584
+      grafxKid (1)_25: 5724396952892479045
+      grafxKid (1)_26: 3353647129862522381
+      grafxKid (1)_27: -1179458427525309677
+      grafxKid (1)_28: -5646779708470043770
+      grafxKid (1)_29: -5186008362900382282
+      grafxKid (1)_3: 6726105867306630923
+      grafxKid (1)_30: -2795822184085450118
+      grafxKid (1)_31: 5746320433896429315
+      grafxKid (1)_32: 6012741587242714461
+      grafxKid (1)_33: -2516640679852732962
+      grafxKid (1)_34: -5121562288716729119
+      grafxKid (1)_35: 4659630455483053505
+      grafxKid (1)_36: 1079242209608199478
+      grafxKid (1)_37: 3064980494190384068
+      grafxKid (1)_38: -1057501070371561034
+      grafxKid (1)_39: 8894133774470349475
+      grafxKid (1)_4: 6894455434623386398
+      grafxKid (1)_40: 7448550562927119375
+      grafxKid (1)_41: -2534317251056798817
+      grafxKid (1)_42: 5167208858917429773
+      grafxKid (1)_43: 3634250810116913325
+      grafxKid (1)_44: 6737898617617085142
+      grafxKid (1)_45: -1692462585063643808
+      grafxKid (1)_46: 7540406241863202010
+      grafxKid (1)_47: 4804580634246655334
+      grafxKid (1)_48: 3328696193572671826
+      grafxKid (1)_49: 4482135639392277979
+      grafxKid (1)_5: 7250775667298026464
+      grafxKid (1)_50: -2107599074889876523
+      grafxKid (1)_51: -99145256
+      grafxKid (1)_52: -1951484894
+      grafxKid (1)_6: 603180158075634869
+      grafxKid (1)_7: -3509208809648361972
+      grafxKid (1)_8: -7011100749614433642
+      grafxKid (1)_9: 5769974916209886353
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
