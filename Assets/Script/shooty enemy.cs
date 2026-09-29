@@ -9,14 +9,14 @@ public class shhotyenemy : MonoBehaviour
     public LayerMask groundLayer;
     public LayerMask player;
     int directionFaceNum;
-    bool canShoot;
+    bool canShoot = false;
     int countBeforShoot;
 
     public string directionface;
-    public bool shooting;
+    public bool shooting = false;
     int directionMove;
 
-    int reload = 1000;
+    int reload = 1400;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -69,7 +69,6 @@ public class shhotyenemy : MonoBehaviour
                 {
                     reload = 0;
                     countBeforShoot = 0;
-                    print("you have been shot");
                     shooting = true;
                 }
             }

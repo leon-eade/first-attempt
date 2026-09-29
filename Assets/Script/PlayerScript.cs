@@ -6,6 +6,10 @@ public class PlayerScript2 : MonoBehaviour
 {
     InputAction moveAction;
     InputAction jumpAction;
+    public healthbar h;
+    public bool checkhit;
+    public bool heal;
+    public bool hite;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     Rigidbody2D rb;
     bool isGrounded;
@@ -24,6 +28,7 @@ public class PlayerScript2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         Vector2 moveVel = moveAction.ReadValue<Vector2>();
         rb.linearVelocity = new Vector2(moveVel.x *5, rb.linearVelocity.y);
         if (RayCollisionCheckDown(0, 0) || RayCollisionCheckDown(-0.4f, 0) || RayCollisionCheckDown(0.4f, 0))
@@ -34,9 +39,22 @@ public class PlayerScript2 : MonoBehaviour
         {
             isGrounded= false;
         }
-            Jump();
+        Jump();
         IsWalking();
         Direction();
+        heal1();
+    }
+    void heal1()
+    {
+        if (h.health <= 0)
+        {
+            heal = true;
+            transform.position = new Vector3(-17,0,0);
+        }
+        else
+        {
+        heal= false;
+        }
     }
     public bool RayCollisionCheckDown(float xoffs, float yoffs)
     {
@@ -112,14 +130,32 @@ public class PlayerScript2 : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "enemy")
+        if (collision.gameObject.tag == "enemy"|| collision.gameObject.tag == "hazards")
         {
-            print("you dead");
+            hite = true;
+            checkhit = true;
         }
-        else if (collision.gameObject.tag == "hazards")
+        
+
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        checkhit = false;
+        hite = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "hazards")
         {
-            transform.position = new Vector3(-17.81f, 0.15f, 0);
+            hite = true;
+            checkhit = true;
         }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        checkhit = false;
+        hite = false;
     }
 }
 

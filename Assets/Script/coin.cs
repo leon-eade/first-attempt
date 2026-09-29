@@ -6,41 +6,34 @@ using UnityEngine;
 public class coin : MonoBehaviour
 {
     Animator anim;
-    public LayerMask playerLayer;
+
+
     void Start()
     {
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        RayCollisionCheck(0, 0);
+
     }
-    public bool RayCollisionCheck(float xoffs, float yoffs)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        float rayLength = 0.6f;
-        bool hitSomething = false;
-
-
-        Vector3 offset = new Vector3(xoffs, yoffs, 0);
-
-
-        RaycastHit2D hit;
-
-        hit = Physics2D.Raycast(transform.position + offset, Vector2.down, rayLength, playerLayer);
-
-        Color hitColor = Color.red;
-
-
-        if (hit.collider != null)
+        if (collision.gameObject.tag == "Player")
         {
+            anim.SetBool("collected", true);
+            Invoke("Collected", 0.7f);
 
-            hitColor = Color.green;
-            hitSomething = true;
         }
 
-        Debug.DrawRay(transform.position + offset, Vector2.down * rayLength, hitColor);
-        return hitSomething;
+    }
+
+    void Collected()
+    {
+        Destroy(gameObject);
+
     }
 
 }
