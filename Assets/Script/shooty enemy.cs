@@ -6,12 +6,11 @@ public class shhotyenemy : MonoBehaviour
 {
     
     Rigidbody2D rb;
+    helperscript helper;
     public LayerMask groundLayer;
     public LayerMask player;
-    int directionFaceNum;
     bool canShoot = false;
     int countBeforShoot;
-
     public string directionface;
     public bool shooting = false;
     int directionMove;
@@ -20,10 +19,11 @@ public class shhotyenemy : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        helper = gameObject.AddComponent<helperscript>();
     }
 
-    // Update is called once per frame
-    void Update()
+        // Update is called once per frame
+        void Update()
     {
         if (directionface == "right")
         {
@@ -80,17 +80,16 @@ public class shhotyenemy : MonoBehaviour
     {
         if (!RayCollisionCheckDown(-0.75f, 0))
         {
-            directionFaceNum = 180;
+
             directionface = "right";
-            transform.localRotation = Quaternion.Euler(0, directionFaceNum, 0);
+            helper.FlipSprite(true);
             directionMove = 2;
         }
         if (!RayCollisionCheckDown(0.75f, 0))
         {
             directionMove = -2;
-            directionFaceNum = 0;
             directionface = "left";
-            transform.localRotation = Quaternion.Euler(0, directionFaceNum, 0);
+            helper.FlipSprite(false);
         }
         rb.linearVelocity = new Vector2(directionMove, rb.linearVelocity.y);
     }

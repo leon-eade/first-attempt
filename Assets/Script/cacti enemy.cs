@@ -7,9 +7,11 @@ public class cactienemy : MonoBehaviour
     Rigidbody2D rb;
     public LayerMask groundLayer;
     public Transform Player;
+    helperscript helper;
     int direction;
     void Start()
     {
+        helper = gameObject.AddComponent<helperscript>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -23,13 +25,13 @@ public class cactienemy : MonoBehaviour
     {
         if (!RayCollisionCheckDown(-0.4f, 0) )
         {
-            transform.localRotation = Quaternion.Euler(0, 180, 0);
+            helper.FlipSprite(true);
             direction = 3;
         }
         if (!RayCollisionCheckDown(0.4f, 0))
         {
             direction = -3;
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
+            helper.FlipSprite(false);
         }
     }
     public bool RayCollisionCheckDown(float xoffs, float yoffs)

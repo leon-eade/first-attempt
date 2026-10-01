@@ -10,6 +10,7 @@ TagManager:
   - turn left
   - coin
   - hazards
+  - checkpoint
   layers:
   - Default
   - TransparentFX

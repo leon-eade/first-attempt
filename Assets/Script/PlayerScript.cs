@@ -5,6 +5,9 @@ using UnityEngine.InputSystem;
 public class PlayerScript2 : MonoBehaviour
 {
     InputAction moveAction;
+    helperscript helper;
+    float y = -0.15f;
+    float x = -17.55f;
     InputAction jumpAction;
     public healthbar h;
     public bool checkhit;
@@ -19,6 +22,7 @@ public class PlayerScript2 : MonoBehaviour
     bool result;
     void Start()
     {
+        helper = gameObject.AddComponent<helperscript>();
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
         rb = GetComponent<Rigidbody2D>();
@@ -44,12 +48,13 @@ public class PlayerScript2 : MonoBehaviour
         Direction();
         heal1();
     }
+
     void heal1()
     {
         if (h.health <= 0)
         {
             heal = true;
-            transform.position = new Vector3(-17,0,0);
+            transform.position = new Vector3(x,y,0);
         }
         else
         {
@@ -86,11 +91,12 @@ public class PlayerScript2 : MonoBehaviour
     {
         if (rb.linearVelocityX > 0)
         {
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
+            helper.FlipSprite(false);
         }
         else if (rb.linearVelocityX < 0)
         {
-            transform.localRotation = Quaternion.Euler(0, 180, 0);
+            helper.FlipSprite(true);
+
         }
     }
     void IsWalking()
@@ -151,11 +157,17 @@ public class PlayerScript2 : MonoBehaviour
             hite = true;
             checkhit = true;
         }
+        if (collision.gameObject.tag == "checkpoint")
+        {
+            x=transform.position.x;
+            y=transform.position.y;
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         checkhit = false;
         hite = false;
+
     }
 }
 
