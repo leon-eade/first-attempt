@@ -5,13 +5,16 @@ using UnityEngine.InputSystem;
 public class PlayerScript2 : MonoBehaviour
 {
     InputAction moveAction;
+    InputAction attackAction;
     helperscript helper;
     float y = -0.15f;
+    bool left;
     float x = -17.55f;
     InputAction jumpAction;
     public healthbar h;
     public bool checkhit;
     public bool heal;
+    public GameObject weapon;
     public bool hite;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     Rigidbody2D rb;
@@ -25,6 +28,7 @@ public class PlayerScript2 : MonoBehaviour
         helper = gameObject.AddComponent<helperscript>();
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
+        attackAction = InputSystem.actions.FindAction("Attack");
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -35,7 +39,7 @@ public class PlayerScript2 : MonoBehaviour
 
         Vector2 moveVel = moveAction.ReadValue<Vector2>();
         rb.linearVelocity = new Vector2(moveVel.x *5, rb.linearVelocity.y);
-        if (RayCollisionCheckDown(0, 0) || RayCollisionCheckDown(-0.4f, 0) || RayCollisionCheckDown(0.4f, 0))
+        if (RayCollisionCheckDown(0, 0) || RayCollisionCheckDown(-0.35f, 0) || RayCollisionCheckDown(0.35f, 0))
         {
             isGrounded = true;
         }
@@ -47,6 +51,26 @@ public class PlayerScript2 : MonoBehaviour
         IsWalking();
         Direction();
         heal1();
+        attack();
+    }
+    void attack()
+    {
+        if (attackAction.WasPressedThisFrame())
+        {
+            GameObject clone;
+            clone = Instantiate(weapon, transform.position, transform.rotation);
+            Rigidbody2D rb = clone.GetComponent<Rigidbody2D>();
+            if (left == true)
+            {
+                rb.linearVelocity = new Vector2(5, 0);
+                rb.transform.position = new Vector3(transform.position.x + 0.7f, transform.position.y, transform.position.z);
+            }
+            else
+            {
+                rb.linearVelocity = new Vector2(-5, 0);
+                rb.transform.position = new Vector3(transform.position.x - 0.7f, transform.position.y, transform.position.z);
+            }
+        }
     }
 
     void heal1()
@@ -91,10 +115,12 @@ public class PlayerScript2 : MonoBehaviour
     {
         if (rb.linearVelocityX > 0)
         {
+            left = true;
             helper.FlipSprite(false);
         }
         else if (rb.linearVelocityX < 0)
         {
+            left = false;
             helper.FlipSprite(true);
 
         }
@@ -134,6 +160,10 @@ public class PlayerScript2 : MonoBehaviour
             }
         }
     }
+    void removeJump()
+    {
+        jumpNum = 0;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "enemy"|| collision.gameObject.tag == "hazards")
@@ -148,6 +178,11 @@ public class PlayerScript2 : MonoBehaviour
     {
         checkhit = false;
         hite = false;
+        if (collision.gameObject.tag == "player attack")
+        {
+            Invoke("removeJump", 0.5f);
+            print("no longre touching attack");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -1,10 +1,9 @@
 using UnityEngine;
 using Unity.VisualScripting;
-using UnityEngine.InputSystem;
 
 public class shhotyenemy : MonoBehaviour
 {
-    
+
     Rigidbody2D rb;
     helperscript helper;
     public LayerMask groundLayer;
@@ -22,12 +21,12 @@ public class shhotyenemy : MonoBehaviour
         helper = gameObject.AddComponent<helperscript>();
     }
 
-        // Update is called once per frame
-        void Update()
+    // Update is called once per frame
+    void Update()
     {
         if (directionface == "right")
         {
-            if (RayCollisionCheckRight(0, -0.1f) )
+            if (RayCollisionCheckRight(0, -0.1f))
             {
                 canShoot = true;
             }
@@ -39,7 +38,7 @@ public class shhotyenemy : MonoBehaviour
         else if (directionface == "left")
         {
             if (RayCollisionCheckLeft(0, -0.1f))
-            { 
+            {
                 canShoot = true;
             }
             else
@@ -74,7 +73,7 @@ public class shhotyenemy : MonoBehaviour
             }
         }
 
-        
+
     }
     void movement()
     {
@@ -111,7 +110,7 @@ public class shhotyenemy : MonoBehaviour
 
         if (hit.collider != null)
         {
-           
+
             hitColor = Color.green;
             hitSomething = true;
         }
@@ -137,7 +136,7 @@ public class shhotyenemy : MonoBehaviour
 
         if (hit.collider != null)
         {
-           
+
             hitColor = Color.green;
             hitSomethingRight = true;
         }
@@ -163,12 +162,27 @@ public class shhotyenemy : MonoBehaviour
 
         if (hit.collider != null)
         {
-         
+
             hitColor = Color.green;
             hitSomethingLeft = true;
         }
 
         Debug.DrawRay(transform.position + offset, Vector2.left * rayLength, hitColor);
         return hitSomethingLeft;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "player attack")
+        {
+            transform.position = new Vector3(0, 0, -10);
+            Invoke("kaboom", 2);
+        }
+    }
+
+
+
+    void kaboom()
+    {
+        Destroy(gameObject);
     }
 }

@@ -11,6 +11,8 @@ TagManager:
   - coin
   - hazards
   - checkpoint
+  - text
+  - player attack
   layers:
   - Default
   - TransparentFX

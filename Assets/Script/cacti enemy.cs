@@ -60,5 +60,19 @@ public class cactienemy : MonoBehaviour
         Debug.DrawRay(transform.position + offset, Vector2.down * rayLength, hitColor);
         return hitSomething;
     }
-    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "player attack")
+        {
+            transform.position = new Vector3(0, 0, -10);
+            Invoke("kaboom", 2);
+        }
+    }
+
+
+
+    void kaboom()
+    {
+        Destroy(gameObject);
+    }
 }
