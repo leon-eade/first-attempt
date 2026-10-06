@@ -1,9 +1,11 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class PlayerScript2 : MonoBehaviour
 {
+    public float positionx;
     InputAction moveAction;
     InputAction attackAction;
     helperscript helper;
@@ -11,8 +13,9 @@ public class PlayerScript2 : MonoBehaviour
     bool left;
     float x = -17.55f;
     InputAction jumpAction;
+    InputAction attack2Action;
     public healthbar h;
-    public bool checkhit;
+    public bool checkHit;
     public bool heal;
     public GameObject weapon;
     public bool hite;
@@ -20,15 +23,16 @@ public class PlayerScript2 : MonoBehaviour
     Rigidbody2D rb;
     bool isGrounded;
     public int jumpNum;
+    int count = 750;
     Animator anim;
     public LayerMask groundLayer;
-    bool result;
     void Start()
     {
         helper = gameObject.AddComponent<helperscript>();
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
         attackAction = InputSystem.actions.FindAction("Attack");
+        attack2Action = InputSystem.actions.FindAction("attack2");
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -36,44 +40,97 @@ public class PlayerScript2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Move();
+        Isgrounded();
+        Jump();
+        IsWalking();
+        Direction();
+        Heal1();
+        Attack();
+        Attack2();
+    }
+    void Move()
+    {
         Vector2 moveVel = moveAction.ReadValue<Vector2>();
-        rb.linearVelocity = new Vector2(moveVel.x *5, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(moveVel.x*5, rb.linearVelocity.y);
+    }
+    void Isgrounded()
+    {
         if (RayCollisionCheckDown(0, 0) || RayCollisionCheckDown(-0.35f, 0) || RayCollisionCheckDown(0.35f, 0))
         {
             isGrounded = true;
         }
         else
         {
-            isGrounded= false;
+            isGrounded = false;
         }
-        Jump();
-        IsWalking();
-        Direction();
-        heal1();
-        attack();
     }
-    void attack()
+    void Attack()
     {
+        count += 1;
         if (attackAction.WasPressedThisFrame())
         {
-            GameObject clone;
+            if (count >= 750)
+            {
+                count= 0;
+                SpawnAttack();
+            }
+        }
+    }
+    void Attack2()
+    {
+        count += 1;
+        if (attack2Action.WasPressedThisFrame())
+        {
+            if (count >= 750)
+            {
+                count= 0;
+                SpawnAttack2();
+            }
+        }
+    }
+    void SpawnAttack()
+    {
+        GameObject clone;
+        clone = Instantiate(weapon, transform.position, transform.rotation);
+        Rigidbody2D rb = clone.GetComponent<Rigidbody2D>();
+        if (left == true)
+        {
+            rb.linearVelocity = new Vector2(5, 0);
+            rb.transform.position = new Vector3(transform.position.x + 0.7f, transform.position.y, transform.position.z);
+        }
+        else
+        {
+            rb.linearVelocity = new Vector2(-5, 0);
+            rb.transform.position = new Vector3(transform.position.x - 0.7f, transform.position.y, transform.position.z);
+        }
+    }
+    void SpawnAttack2()
+    {
+        GameObject clone;
+        clone = Instantiate(weapon, transform.position, transform.rotation);
+        Rigidbody2D rb = clone.GetComponent<Rigidbody2D>();
+        if (left == true)
+        {
+            rb.linearVelocity = new Vector2(5, 0);
+            rb.transform.position = new Vector3(transform.position.x + 0.7f, transform.position.y-0.5f, transform.position.z);
             clone = Instantiate(weapon, transform.position, transform.rotation);
-            Rigidbody2D rb = clone.GetComponent<Rigidbody2D>();
-            if (left == true)
-            {
-                rb.linearVelocity = new Vector2(5, 0);
-                rb.transform.position = new Vector3(transform.position.x + 0.7f, transform.position.y, transform.position.z);
-            }
-            else
-            {
-                rb.linearVelocity = new Vector2(-5, 0);
-                rb.transform.position = new Vector3(transform.position.x - 0.7f, transform.position.y, transform.position.z);
-            }
+            rb = clone.GetComponent<Rigidbody2D>();
+            rb.linearVelocity = new Vector2(5, 0);
+            rb.transform.position = new Vector3(transform.position.x + 0.7f, transform.position.y + 0.4f, transform.position.z);
+        }
+        else
+        {
+            rb.linearVelocity = new Vector2(-5, 0);
+            rb.transform.position = new Vector3(transform.position.x - 0.7f, transform.position.y - 0.5f, transform.position.z);
+            clone = Instantiate(weapon, transform.position, transform.rotation);
+            rb = clone.GetComponent<Rigidbody2D>();
+            rb.linearVelocity = new Vector2(-5, 0);
+            rb.transform.position = new Vector3(transform.position.x - 0.7f, transform.position.y + 0.4f, transform.position.z);
         }
     }
 
-    void heal1()
+    void Heal1()
     {
         if (h.health <= 0)
         {
@@ -169,14 +226,14 @@ public class PlayerScript2 : MonoBehaviour
         if (collision.gameObject.tag == "enemy"|| collision.gameObject.tag == "hazards")
         {
             hite = true;
-            checkhit = true;
+            checkHit = true;
         }
         
 
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        checkhit = false;
+        checkHit = false;
         hite = false;
         if (collision.gameObject.tag == "player attack")
         {
@@ -190,7 +247,7 @@ public class PlayerScript2 : MonoBehaviour
         if (collision.gameObject.tag == "hazards")
         {
             hite = true;
-            checkhit = true;
+            checkHit = true;
         }
         if (collision.gameObject.tag == "checkpoint")
         {
@@ -200,7 +257,7 @@ public class PlayerScript2 : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        checkhit = false;
+        checkHit = false;
         hite = false;
 
     }

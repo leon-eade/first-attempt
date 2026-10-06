@@ -24,7 +24,7 @@ public class healthbar : MonoBehaviour
         displayhealth();
         if (immune == false)
         {
-            if (h3.checkhit)
+            if (h3.checkHit)
             {
                 damage();
             }

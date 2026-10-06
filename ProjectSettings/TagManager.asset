@@ -13,6 +13,7 @@ TagManager:
   - checkpoint
   - text
   - player attack
+  - sans
   layers:
   - Default
   - TransparentFX
